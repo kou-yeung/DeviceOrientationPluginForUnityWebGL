@@ -30,7 +30,6 @@ public class DeviceOrientation
     static void EventCallback(double x, double y, double z)
     {
         var vec3 = new Vector3((float)x, (float)y, (float)z);
-        Debug.Log("EventCallback : " + vec3.ToString());
         if (DeviceOrientationEvent != null)
         {
             DeviceOrientationEvent(vec3);
