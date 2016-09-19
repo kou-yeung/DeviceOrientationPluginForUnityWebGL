@@ -18,3 +18,5 @@ void OnDeviceOrientationEvent(Vector3 v3)
 }
 ```
 
+# Sample
+http://kou-yeung.mygamesonline.org/DeviceOrientation/index.html
